@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+
+<sdf version="1.4" ?>
+    <world name="defalut">
+        <include>
+            <uri>model://ground_plane</uri>
+        </include>
+
+        <!-- Light Source -->
+        <include>
+            <uri>model://sun</uri>
+        </include>
+
+        <!-- world camer -->
+        <gui fullscreen='0'>
+            <camera name='world_camera'>
+                <pose>4.927360 -4.376610 3.740080 0.000000 0.245643 2.356190</pose>
+                <view_controller>orbit</view_controller>
+            </camera>
+        </gui>
+    </world>
+</sdf>
+
